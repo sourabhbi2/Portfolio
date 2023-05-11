@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto:wght@500&display=swap');
+:root {
+    --primary-color: #2563eb;
+    --dark-grey:#6B7280;
+    --off-white:#f3f4f6;
+}
+
+body {
+    font-family: 'montserrat', 'Sans-serif';
+    margin: 1rem;
+    max-width: 85%;
+    width: 100%;
+}
+ hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+/* container */
+.container {
+    padding: 0rem 1rem;
+}
+.container-centre {
+    max-width: 600px;
+    margin: auto;
+}
+/* Links */
+.link {
+    text-decoration: none;
+    box-sizing:border-box;
+    padding: 0.5rem 1rem;
+}
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    /* text-decoration-color: aliceblue; */
+}
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.4rem;
+    border: 1px solid var(--primary-color);
+}
+/* list */
+.list-non-bullet{
+    list-style: none;
+
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* navigation bar */
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    /* align-items: center; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    border-bottom-left-radius: 1rem;
+} 
+.navigation .nav-brand{
+    font-weight: bold;
+    text-align: left;
+    
+}
+.navigation .nav-pills{
+    text-align:right;
+    margin: 0.6rem 1rem;
+}
+.navigation .nav-link{
+    color: white;
+}
+.navigation .nav-link-active{
+    font-weight: bold;
+}
+
+/* header */
+.header{
+    padding: 2rem;
+}
+.header .header-img{
+    max-width: 80%;
+    width: 500px;
+    display: block;
+   margin: auto;
+}
+.header .header-heading{
+    color: var(--dark-grey);
+    padding-top: 2rem;
+}
+.header .header-heading .h-text{
+    color: var(--primary-color);
+   
+}
+
+/* section */
+.section{
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+/* .section h3{
+    text-align: center;
+} */
+.off-white {
+    background-color: var(--off-white);
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    padding: 1rem 1rem;
+   
+}
+
+/* footer */
+.centre{
+    text-align: center;
+    
+}
+.color{
+    color: white;
+}
+.padding{
+    padding: 2.5rem 1rem;
+}
