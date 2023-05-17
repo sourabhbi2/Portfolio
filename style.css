@@ -10,6 +10,7 @@ body {
     margin: 1rem;
     max-width: 85%;
     width: 100%;
+    /* overflow-x: hidden !important; */
 }
  hr {
     margin-top: 1rem;
@@ -17,7 +18,7 @@ body {
 }
 /* container */
 .container {
-    padding: 0rem 1rem;
+    padding: 1rem;
 }
 .container-centre {
     max-width: 600px;
@@ -34,6 +35,8 @@ body {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    justify-content: center;
+    align-content: center;
     /* text-decoration-color: aliceblue; */
 }
 .link-secondary{
@@ -79,7 +82,7 @@ body {
 
 /* header */
 .header{
-    padding: 2rem;
+    padding: 1rem;
 }
 .header .header-img{
     max-width: 80%;
@@ -89,7 +92,7 @@ body {
 }
 .header .header-heading{
     color: var(--dark-grey);
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 .header .header-heading .h-text{
     color: var(--primary-color);
@@ -98,8 +101,8 @@ body {
 
 /* section */
 .section{
-    padding: 2rem;
-    margin: 2rem;
+    padding: 1rem;
+    margin: 1rem;
     border-radius: 1rem;
     text-align: center;
 }
@@ -123,5 +126,7 @@ body {
     color: white;
 }
 .padding{
-    padding: 2.5rem 1rem;
+    padding: 1rem 1rem;
+    /* margin: 1rem 1rem; */
+    /* border: 1px solid red; */
 }
